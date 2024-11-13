@@ -1,0 +1,325 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Itim", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: "Poppins", serif; */
+body {
+    background-color: black;
+}
+
+  
+/* Navbar Section */
+
+.navbar_section .nav-item {
+
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s all;
+    color: #FFF;
+
+
+
+}
+.navbar_section .navbar-brand{
+    font-family: "Itim", cursive;
+    font-size: 40px;
+
+}
+.navbar_section .nav-item :hover {
+    background-color: tomato;
+    cursor: pointer;
+
+}
+
+/* Navbar Section End */
+
+/* Banner Section Start */
+.banner_section .left_side {
+    margin-top: 300px;
+}
+
+.banner_section .left_side h1 {
+    font-family: "Itim", cursive;
+}
+
+.banner_section .left_side p {
+    font-family: "Poppins", serif;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+
+.banner_section img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    margin-top: 70px;
+
+}
+
+.rounded {
+    border-radius: 50px !important;
+}
+
+/* Banner Section End */
+
+/* about section start */
+.about_me {
+    margin-top: 200px;
+}
+
+.about_me h2 {
+    font-family: "Itim", cursive;
+
+}
+
+.about_me p {
+    font-size: 30px;
+}
+
+/* about section start */
+
+
+/* Skill section */
+.resume-section {
+    margin-top: 80px;
+    padding-bottom: 80px;
+    font-family: "Itim", cursive;
+
+}
+
+/* Skill section */
+
+
+/* what_i_do */
+.what_i_do {
+    margin-top: 50px;
+}
+
+.what_i_do h2 {
+    padding-left: 40px;
+    font-family: "Itim", cursive;
+    
+
+}
+
+.what_i_do p {
+    font-family: "Poppins", serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+
+.what_i_do .row {
+    padding-top: 40px;
+    font-family: "Poppins", serif;
+
+
+}
+
+/* what_i_do */
+
+
+/* gellary start */
+
+.gellary {
+    margin-top: 30px;
+}
+
+.gellary h1 {
+    font-family: "Itim", cursive;
+
+}
+
+.gellary .card {
+    transition: all 1s;
+}
+
+.gellary .card:hover {
+    transform: scale(1.1);
+}
+
+/* gellary end */
+
+
+/* certified */
+.certified .row h3 {
+    padding-top: 150px;
+}
+
+
+/* certified */
+
+/* lets_go start */
+.lets_go {
+    margin-top: 150px;
+}
+
+.lets_go .row h2 {
+    font-family: "Itim", cursive;
+
+}
+
+/* lets_go end */
+
+/* why_peple start */
+.why_peple .hd {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Itim", cursive;
+
+}
+
+.why_peple .pera {
+    font-family: "Poppins", serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.why_peple .card-title {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+
+}
+
+.why_peple .card-content i {
+    color: #FEC608;
+}
+
+/* why_peple end */
+
+
+
+/* About Myself */
+.about_myself {
+    margin-top: 100px;
+}
+.about_myself img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    margin-top: 70px;
+
+}
+.about_myself h2{
+    font-size: 30px;
+    font-family: "Itim", cursive;
+
+}
+.about_myself .year{
+    font-size: 40px;
+    margin-top: 100px;
+}
+.talk_box{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+
+.chatbox {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.chat-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.messages {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.messages p {
+    margin: 5px 0;
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.contact_from .container {
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+.contact_from h2 {
+    font-size: 2rem;
+    color: #343a40;
+}
+
+.contact_from form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact_from button {
+    padding: 12px;
+    font-size: 1rem;
+}
+
+/* our_service */
+.our_service{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.our_service h2{
+    font-family: "Itim", cursive;
+    font-size: 40px;
+
+
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: #007bff;
+}
+.service-card {
+    transition: transform 0.3s ease-in-out;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+}
+.header-section {
+    background-color: #007bff;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+.header-section h1 {
+    font-size: 3rem;
